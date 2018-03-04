@@ -1,4 +1,4 @@
-[Click me](http://www.google.com){: .btn}
+# [Home](https://paulovictorcorreia.github.io/)     [GitHub](https://github.com/paulovictorcorreia)
 
 ## Introduction
 
