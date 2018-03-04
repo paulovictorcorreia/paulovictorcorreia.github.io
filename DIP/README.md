@@ -7,7 +7,7 @@ This page contains the exercises of DIP course lectured by Professor Agostinho B
 ## 1. Initial Concepts
 
 There were no exercises on this section, but we have to present the makefile for compiling the code and the various modules of the OpenCV library: 
-'''makefile
+```makefile
 .SUFFIXES:
 .SUFFIXES: .c .cpp
 
@@ -21,7 +21,7 @@ GCC = g++
 	$(GCC) -Wall -Wunused -std=c++11 -O2 `pkg-config --cflags opencv` $< -o $@ `pkg-config --libs opencv`
 
 
-'''
+```
 
 For compiling a single c++ file, we must execute the following command for a filename.cpp file:
-' $ make filename '
+` $ make filename `
