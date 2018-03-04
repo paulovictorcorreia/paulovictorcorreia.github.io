@@ -1,4 +1,6 @@
-# [Home](https://paulovictorcorreia.github.io/)  ***   [GitHub](https://github.com/paulovictorcorreia)
+# [Home](https://paulovictorcorreia.github.io/)
+
+# [GitHub](https://github.com/paulovictorcorreia)
 
 ## Introduction
 
