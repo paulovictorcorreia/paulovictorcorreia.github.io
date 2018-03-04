@@ -1,5 +1,4 @@
 theme: jekyll-theme-cayman
 title: Welcome to Paulo Victor Correia's homepage!
-headers:
-    My-Header: My-Value
-    My-Other-Header: My-Other-Value
+github:
+  zip_url: https://github.com/paulovictorcorreia
