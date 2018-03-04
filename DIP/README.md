@@ -1,3 +1,7 @@
+# [Home](https://paulovictorcorreia.github.io/)
+
+# [GitHub](https://github.com/paulovictorcorreia)
+
 ## Introduction
 
 As we have knowledge, we, as humans, want to reduce the amount of work done by us and substitute for machines. Digital Image Processing is making us one step closer to this.
