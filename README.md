@@ -1,6 +1,9 @@
+[Click me](http://www.google.com){: .btn}
+
 ## Introduction
 
 Hello there! My name is Paulo Victor Queiroz Correia, I'm a student of computer engineering in Federal University of Rio Grande do Norte(UFRN), and I am fascinated for programming, knowledge and, of course, Brazilian Popular Music.
+
 This website was created with the intention of showing to the world the work I develop, both as student and professional, and, with that, step by step, begin to conquer the whole world! 
 ### Projects
 
