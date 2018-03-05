@@ -2,6 +2,8 @@
 
 # [GitHub](https://github.com/paulovictorcorreia)
 
+# [Curriculum(portuguese)](https://paulovictorcorreia.github.io/Curriculos/Moderncv_Casual.pdf)
+
 ## Introduction
 
 Hello there! My name is Paulo Victor Queiroz Correia, I'm a student of computer engineering in Federal University of Rio Grande do Norte(UFRN), and I am fascinated for programming, knowledge and, of course, Brazilian Popular Music.
