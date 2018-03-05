@@ -34,6 +34,8 @@ On this section, we're going to see how we can manipulate pixels on OpenCV.
 
 ### 2.1 Regions
 
+---
+
 This exercise asks us to make a program in which asks the user for 2 points on a two dimentional plane, P1 and P2, and then draw a rectangle with the inverted colors of the pixels in the area of the rectangle.
 
 The base image we used is:
