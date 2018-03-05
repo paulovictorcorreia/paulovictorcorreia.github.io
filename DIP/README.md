@@ -37,7 +37,8 @@ On this section, we're going to see how we can manipulate pixels on OpenCV.
 This exercise asks us to make a program in which asks the user for 2 points on a two dimentional plane, P1 and P2, and then draw a rectangle with the inverted colors of the pixels in the area of the rectangle.
 
 The base image we used is:
-![Base image for the exercises on section 2](biel.png)
+![Base image for the exercises on section 2]
+(biel.png)
 
 For this first exercise, we wrote the following code:
 ```c++
@@ -113,7 +114,9 @@ int main(int, char**){
 
 The entry command on the Linux terminal was this:
 
-![Command line entry](terminal_regions.png)
+![Command line entry]
+(terminal_regions.png)
 
 And, finally, the output picture of the inverted colors on _biel.png_ picture:
-![Inverted region of the picture](biel_regions.png)
+![Inverted region of the picture]
+(biel_regions.png)
