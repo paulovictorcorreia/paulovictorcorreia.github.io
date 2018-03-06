@@ -120,3 +120,81 @@ The entry command on the Linux terminal was this:
 And, finally, the output picture of the inverted colors on _biel.png_ picture:
 
 ![Inverted region of the picture](biel_regions.png)
+
+### Inverted Quadrants
+
+For this exercise, we had the image as it shows on the scheme:
+
+![Quadrants](quadrants.png)
+
+And then invert the quadrants in such way tha the image ends up like this:
+
+![Inverted Quadrants](inverted_quadrants.png)
+
+To complete this task, we wrote the following code:
+
+```c++
+#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <string>
+
+using namespace cv;
+using namespace std;
+
+int main(int argc, char* argv[]){
+    Mat inv_image;
+	int rows, cols;//Number of columns and rows
+	uchar aux;//Auxiliar variable to change pixels
+	string picture;
+	if(argc != 2){
+		cout << "Input error!\n";
+		exit(0);
+	}
+	picture = argv[1];
+	inv_image = imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);//Read image into Mat object
+	if(!inv_image.data){//Checks if picture has a valid format 
+		cout << "nao abriu imagem" << endl;
+		exit(0);
+	}
+	rows = inv_image.rows;//number of rows
+	cols = inv_image.cols;//number of columns
+
+	namedWindow("janela",WINDOW_AUTOSIZE);
+
+
+	//Loop that inverts the image horizontally
+	for(int i=0;i<rows;i++){
+		for(int j=0;j<cols/2;j++){
+	    	aux = inv_image.at<uchar>(i, j);
+	    	inv_image.at<uchar>(i, j) = inv_image.at<uchar>(i, j + cols/2);
+	    	inv_image.at<uchar>(i, j + cols/2) = aux;
+	    }
+	}
+	//Loop tha inverts the picture vertically
+	for(int i=0;i<rows/2;i++){
+		for(int j=0;j<cols;j++){
+	    	aux = inv_image.at<uchar>(i, j);
+	    	inv_image.at<uchar>(i, j) = inv_image.at<uchar>(i + rows/2, j);
+	    	inv_image.at<uchar>(i + rows/2, j) = aux;
+	    }
+	}
+	//The output picture is an inverted version of the original picture
+	//in whiche we invert the quadrants of the picture.
+	imshow("janela", inv_image);  
+	waitKey();
+
+ 
+  return 0;
+}
+
+```
+
+In which we first change the picture's pixel horizontally, using a nested loop for that, and then we changed vertically, using another nested loop. Also, we had to use
+an auxiliar variable 'aux', so we could change the pixels without the need of another Mat object.
+
+The output image we obtained using _biel.png_ was:
+
+![Inverted biel.png](biel_inverted.png)
+
+
+
