@@ -2,6 +2,8 @@
 
 # [GitHub](https://github.com/paulovictorcorreia)
 
+# [Linkedin](https://www.linkedin.com/in/paulo-victor-queiroz-correia-641b92163/)
+
 # [Curriculum(portuguese)](https://paulovictorcorreia.github.io/Curriculos/Moderncv_Casual.pdf)
 
 ## Introduction
