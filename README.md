@@ -4,7 +4,7 @@
 
 # [Linkedin](https://www.linkedin.com/in/paulo-victor-queiroz-correia-641b92163/)
 
-# [Curriculum(portuguese)](https://paulovictorcorreia.github.io/Curriculos/Moderncv_Casual.pdf)
+# [Curriculum(portuguese)](https://paulovictorcorreia.github.io/Curriculos/curriculo_paulo_victor_correia.pdf)
 
 ## Introduction
 
