@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name":"Paulo Victor Correia",
+    "occupation":"I'm a computer engineering masters' degree student",
+    "description":"I work as a Data Scientist on the Scientific Data Analysis Lab from the Computer Engineering Department in Federal University of Rio Grande do Norte, and have been working with Educational Data Mining, Time Series Analysis and Compression and Chat-Bots with rasa framework.",
+    "image":"perfil_paulo.jpg",
+    "bio":"My name is Paulo, I'm a masters degree student on eletrical and computer engineering and working with data science research. I am specialized on python for machine learning, researching time series analysis currently and also building chat bots for an industrial environment. I have worked in the past with digital signal processing and web development, with skills on using ReactJS and NodeJS for web and Microprocessors for signal analysis.",
+    "contactmessage":"Feel free to contact me at anytime!",
+    "email": "pvictor@ufrn.edu.br",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Natal",
+      "state":"Rio Grande do Norte",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://paulovictorcorreia.github.io",
+    "resumedownload":"http://paulovictorcorreia.github.io",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/paulo-victor-queiroz-correia-641b92163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/paulovictorcorreia",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"medium",
+        "url":"https://www.linkedin.com/in/paulo-victor-queiroz-correia-641b92163/",
+        "className":"fa fa-medium"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Federal University of Rio Grande do Norte",
+        "degree":"Bachelors Degree in Science and Technology",
+        "graduated":"January, 2014 - December, 2016",
+        "description":"Studied the basics of mechanical, computer, material, eletrical and sanitary engineerings."
+      },
+      {
+        "school":"Federal University of Rio Grande do Norte",
+        "degree":"Bachelors Degree Computer Engineering",
+        "graduated":"January, 2017 - July, 2019",
+        "description":"Developed basic skills on parallel programming, real time systems, control systems, industrial automation, computer networks, digital image processing and digital signal processing. At the end, I got specialized in data science and machine learning."
+      },
+      {
+        "school":"Federal University of Rio Grande do Norte",
+        "degree":"Masters Degree Eletrical and Computer Engineering",
+        "graduated":"August, 2019 - Present",
+        "description":"Developed basic skills on parallel programming, real time systems, control systems, industrial automation, computer networks, digital image processing and digital signal processing. At the end, I got specialized in data science and machine learning."
+      }
+    ],
+    "work":[
+      {
+        "company":"Barreira do Inferno's Military Launch Center",
+        "title":"Intern worker",
+        "years":"August, 2018 - October, 2018",
+        "description":"Developed User Interfaces and Digital Signal Processing jobs with BeagleBone, RaspBerry and Arduino for an airship."
+      },
+      {
+        "company":"Funcern",
+        "title":"Developer of Backend Application",
+        "years":"June, 2019 - July, 2019",
+        "description":"Developed and debugged for a month a SCRUM methodology framework using Python's Django."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python for DataScience",
+        "level":"80%"
+      },
+      {
+        "name":"Django",
+        "level":"25%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"40%"
+      },
+      {
+        "name":"CSS",
+        "level":"20%"
+      },
+      {
+        "name":"HTML5",
+        "level":"30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Classifying Song genres with Pipelines",
+        "category":"Machine Learning and Python application on a song genre classification problem.",
+        "image":"song_genres_image.jpeg",
+        "url":"https://medium.com/analytics-vidhya/classifying-song-genres-with-pipelines-c7186f66cebd"
+      },
+      {
+        "title":"Interpreting Machine Learning Models in Census Income Data set",
+        "category":"Using techniques of Explainable AI to understand socioeconomic differences on US population census data of 1994.",
+        "image":"census_image.jpeg",
+        "url":"https://medium.com/analytics-vidhya/interpreting-machine-learning-models-in-census-income-data-set-56c9dc7e0f27"
+      },
+      {
+        "title":"Using GPU to boost XGBoost Training Time",
+        "category":"Using GPU on XGBoost algorithms to enhance fit timing of the model.",
+        "image":"gpu_boost_image.jpeg",
+        "url":"https://medium.com/analytics-vidhya/using-gpu-to-boost-xgboost-training-time-533a114164d7"
+      },
+      {
+        "title":"Building an Intelligent tic-tac-toe",
+        "category":"Building an tic-tac-toe game on web with p5.js and min-max algorithm. Photo by Rock'n Roll Monkey on Unsplash.",
+        "image":"robot_tictactoe.jpg",
+        "url":"https://paulovictorcorreia.github.io/tictactoe/"
+      },
+      {
+        "title":"Building an Intelligent tic-tac-toe",
+        "category":"Repository for the 11th OmniStack Week project, powered by RocketSeat.",
+        "image":"be-the-hero-image.png",
+        "url":"https://github.com/paulovictorcorreia/be-the-hero"
+      }
+
+
+      
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
